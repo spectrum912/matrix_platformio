@@ -8,7 +8,6 @@
 #define NUM_LEDS_PER_MATRIX (MATRIX_WIDTH * MATRIX_HEIGHT)
 #define TOTAL_LEDS (NUM_MATRICES * NUM_LEDS_PER_MATRIX)
 
-
 #define LOCK_PIN    14  // Управление замком (GPIO14)
 
 const int buttonPins[NUM_MATRICES] = {5, 0, 2, 12};  // Кнопки (GPIO5,12,13,15)
